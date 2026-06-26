@@ -1,0 +1,13 @@
+## Interface: 20505
+## Title: Spec Switch Announce
+## Notes: Imports a Raid-Helper signup and announces when a raider deviates from their assigned spec (with a /s test mode).
+## Author: michael
+## Version: 2.0
+## SavedVariables: SpecSwitchAnnounceDB
+
+Libs\LibStub\LibStub.lua
+Libs\CallbackHandler-1.0\CallbackHandler-1.0.lua
+Libs\LibDetours-1.0\LibDetours-1.0.lua
+Libs\LibClassicInspector\LibClassicInspector.lua
+SpecSwitchAnnounce_Json.lua
+SpecSwitchAnnounce.lua
